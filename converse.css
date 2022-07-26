@@ -13,11 +13,11 @@ section{
     border: 5px solid black;
 }
 
-.border-img{
+/* .border-img{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
-}
+} */
 
 .deliv-promo{
     text-transform: uppercase;
@@ -30,6 +30,7 @@ section{
     text-transform: uppercase;
     text-align: center;
     background-color: lightgray;
+    padding: 1%;
 }
 
 .btn-add-cart{
@@ -38,17 +39,22 @@ section{
     text-transform: uppercase;
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
 }
 
 .btn-add-cart:hover{
     border-color: white;
     background-color: white;
     color: black;  
+    border-top: 5px solid black;
 }
 
 .square-style{
     list-style: square;
     line-height: 1.5;
+    margin-bottom: 1%;
 }
 
 .link-gray{
@@ -69,5 +75,17 @@ section{
 
 .container{
     width: 825px;
-    margin: 0 auto;
+    margin: 2% auto;
+}
+
+.ul-margin{
+    margin-left: 4%;
+}
+
+.margin-btm-2{
+    margin-bottom: 1.5%;
+}
+
+.margin-left-2{
+    margin-left: 0.5%;
 }

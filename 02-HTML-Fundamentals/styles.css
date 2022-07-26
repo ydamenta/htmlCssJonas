@@ -170,3 +170,31 @@ article{
   width: 700px;
   margin: 0 auto;
 }
+
+/* 
+  inline boxes -> only occupied space the content needed, no line-breaks. not apply heights and width, padding margin only works horizontally.
+
+  block elements -> visually as blocks, occupy 100% parent elements width, stacked vertically not side by side
+
+  inline block-elements -> outside like inline, inside like block
+
+*/
+
+nav a:link{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+nav a:link:last-child{
+  margin-right: 0;
+}
+
+/*
+  normal flow -> default positioning is relative -> laid out according to their order in the HTML code
+
+  absolute positioning -> out of normal flow, no impact on surrounding elements, can use top bottom 
+  left or right to move the elements FROM RELATIVE POSITIONED CONTAINER
+
+  
+*/
