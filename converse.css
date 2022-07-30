@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    border: 1px solid red;
 }
 
 body{
@@ -88,4 +89,59 @@ section{
 
 .margin-left-2{
     margin-left: 0.5%;
+}
+
+
+.parent-header{
+    position: relative;
+}
+
+.child-header{
+    position: absolute;
+    top: -14px;
+    left: -32px;
+}
+
+.child-header-text{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: red;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+.child-paint{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 1%;
+    background-color: yellow;
+}
+
+#box-1{
+    margin-left: 0;
+    background-color: black;
+}
+
+#box-2{
+
+    background-color: blue;
+}
+
+#box-3{
+    background-color: red;
+}
+#box-4{
+
+    background-color: burlywood;
+}
+#box-5{
+
+    background-color: green;
+}
+#box-6{
+    background-color: brown;
 }
