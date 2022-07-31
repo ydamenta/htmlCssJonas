@@ -14,7 +14,7 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        /* height: 150px; */
       }
       .el--4 {
         background-color: goldenrod;
@@ -30,6 +30,7 @@
       }
       .el--8 {
         background-color: crimson;
+        height: 300px;
       }
 
       .container {
@@ -40,6 +41,24 @@
         margin: 40px;
 
         /* FLEXBOX */
+        /* Horizontally element takes space as much as the content (similar to inline display)
+        Vertically -> as default it takes the largest element in the container
+
+        align-items -> take the element as the value has been set vertically.
+        
+        justify-content -> take the element as the value has been set horizontally.
+
+        Theory of Flexbox:
+          1. Flexbox is a set of related css properties for building 1-dimensional layouts. 
+          2. Main Idea: empty space inside container automatically divided by child elements. 
+          3. Make it easier to align items inside a parent both horizontal and vertical. 
+          4. Solved very hard centering problem (vertically) and creating equal-height columns. 
+          5. Perfect for replacing floats, allowing us to wirte fewer and clear html and css code.
+        */
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        flex-direction: column-reverse;
       }
     </style>
   </head>

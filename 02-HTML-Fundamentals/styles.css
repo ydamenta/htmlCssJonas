@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -239,4 +239,32 @@ h2::after{
   top: -10px;
   right: -25px;
 
+}
+
+
+/* 
+  Floats
+*/
+
+.img-author{
+  float: left;
+}
+
+.authors{
+  border: 1px solid blue;
+  padding-left: 10px;
+  margin-left: 20px;
+  float: left;
+}
+
+h1{
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+.clear{
+  clear: both;
 }
