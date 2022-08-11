@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container{
+    border: 5px solid black;
+    width: 45%;
+    margin: 3% auto;
+}
+
+.title{
+    text-transform: uppercase;
+    background-color: lightgray;
+    text-align: center;
+    padding: .8%;
+}
+
+.main-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-add-to-cart{
+    border: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: .8%;
+    text-transform: uppercase;
+    background-color: white;
+    border-top: 5px solid black;
+}
+
+.btn-add-to-cart:hover{
+    color: white;
+    background-color: black;
+}
