@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    border: 1px solid red;
 }
 
 .main-container{
@@ -21,7 +22,10 @@
 .main-flex{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.section-flex{
+    width: 33.3%;
 }
 
 .btn-add-to-cart{
@@ -37,4 +41,50 @@
 .btn-add-to-cart:hover{
     color: white;
     background-color: black;
+}
+
+.img-shoes{
+    width: 60%;
+}
+
+
+
+.flex-color-container{
+    display: flex;
+}
+
+.fc-items{
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+}
+
+.flex-color-items-1{
+
+    background-color: navy;
+}
+
+.flex-color-items-2{
+
+    background-color: green;
+}
+
+.flex-color-items-3{
+
+    background-color: yellow;
+}
+
+.flex-color-items-4{
+
+    background-color: black;
+}
+
+.flex-color-items-5{
+
+    background-color: violet;
+}
+
+.flex-color-items-6{
+
+    background-color: orange;
 }
